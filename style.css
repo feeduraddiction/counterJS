@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.counter {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.counter p {
+  margin: 0 25px;
+  width: 76px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.counter button {
+  width: 50px;
+  font-size: 24px;
+}
